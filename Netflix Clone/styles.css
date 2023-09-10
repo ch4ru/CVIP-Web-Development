@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+.logo {
+    width: 210px;
+}
+.header{
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header__bg {
+    opacity: 0.4;
+    box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+    height: 800px;
+    
+
+}
+#lang__picker {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn__primary {
+    background-color: #e8040c;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    padding: 6px 23px;
+    border: 1px solid red ;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+}
+.btn__primary:hover{
+    cursor: pointer;
+    background-color: #c01118;
+    transition: 0.3s;
+
+
+}
+.language__btn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    font-weight: 200
+}
+.navbar__links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+body{
+    background-color: black;
+
+}
+.header__content{
+    margin: 160px auto;
+    padding: 20px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+.container {
+    padding: 30px;
+}
+h1{
+    font-size: 43px;
+    font-weight: bold;
+}
+p {
+    font-size: 25px;
+}
+.email__signup{
+    margin: 20px auto;
+   
+}
+.email__input {
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 15px;
+}
+.email__btn {
+    width: 125px;
+    height: 50px;
+}
+/*features*/
+.hero__container{
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    padding: 60px;
+
+}
+
+.hero__description {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero__image{
+    height: 380px;
+    width: 520px;
+    margin-right: 70px;
+    
+}
+hr{
+    border: 5px solid #292929;
+    margin: 0 -30px;
+}
+.faq-container {
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+}
+.faq{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.faq___btn {
+    width: 80%;
+    padding: 15px;
+    height: 80px;
+    margin: 5px;
+    background-color: #292929;
+    color: white;
+    border: none;
+    font-size: 24px;
+    text-align: left;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.faq___btn:hover{
+    background-color:rgb(69, 69, 69);
+    transition: 0.3s;
+}
+#call{
+    margin-top: 40px;
+    color: lightgrey;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.footer{
+    color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.footer >p{
+    color: lightgrey;
+    width: 400px;
+    font-size: 18px;
+    margin: .5rem;
+    cursor: pointer;
+}
+#netflix_india{
+    color: lightgrey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
